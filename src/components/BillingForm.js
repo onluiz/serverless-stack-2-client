@@ -75,7 +75,7 @@ class BillingForm extends Component {
             placeholder="Name on the card"
           />
         </FormGroup>
-        <ControlLabel>Credit Card Info</ControlLabel>
+        <ControlLabel>Credit Card Info (use 4242 4242 4242 4242 for testing)</ControlLabel>
         <CardElement
           className="card-field"
           onChange={this.handleCardFieldChange}
